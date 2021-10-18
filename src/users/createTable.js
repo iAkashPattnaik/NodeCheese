@@ -2,6 +2,7 @@ const { Pool } = require('pg');
 
 async function createTable() {
     const pool = new Pool({
+        ssl: { rejectUnauthorized: false },
         connectionString: process.env.databaseUrl,
     });
     try {
