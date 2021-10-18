@@ -1,0 +1,20 @@
+{
+  "name": "nodeCheese",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BLUE-DEVIL1134/NodeCheese",
+  "author": "Akash Pattnaik <akashpattnaik.github@gmail.com>",
+  "license": "GPL-v3.0",
+  "private": true,
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fastify": "^3.22.0",
+    "fastify-formbody": "^5.1.0",
+    "fastify-static": "^4.4.2",
+    "pg": "^8.7.1",
+    "uniqid": "^5.4.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeCheese • Profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg">
+</head>
+<body>
+    <div class="navbar">
+        <img src="favicon.svg" alt="NodeCheese Logo">
+        <span id="navbarHead">NodeCheese</span>
+        <div class="nabarLinks">
+            <a href="/">Home</a>
+            <a href="https://github.com/BLUE-DEVIL1134/NodeCheese">Github</a>
+        </div>
+    </div>
+    <div class="nodeUrl">
+        <label for="nodeUrl">Your Custom Link</label>
+        <input disabled type="text" name="nodeUrl" id="nodeUrl">
+        <button onclick="copyNodeUrl(event);" id="copyButton">Copy</button>
+    </div>
+    <div class="nodes"></div>
+    <script src="scripts/profile.js"></script>
+</body>
+</html>

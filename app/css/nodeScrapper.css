@@ -1,0 +1,13 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url('/assets/BebasNeue-Bold.ttf');
+}
+body {
+    margin: 0;
+    display: flex;
+    color: #425066;
+    user-select: none;
+}h1 {
+    font-size: 48px;
+    font-family: BebasNeue;
+}

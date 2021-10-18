@@ -1,0 +1,76 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url('/assets/BebasNeue-Bold.ttf');
+}
+body {
+    margin: 0;
+    display: flex;
+    color: #425066;
+    user-select: none;
+}
+div.navbar {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    z-index: 10000;
+    box-shadow: var(--devsite-header-lower-box-shadow,0 1px 2px 0 rgba(60,64,67,0.3),0 2px 6px 2px #3c404326);
+}
+div.nabarLinks {
+    position: absolute;
+    right: 0;
+}
+div.navbar a {
+    color: #1973e9;
+    text-decoration: none;
+    font-size: 17px;
+    right: 0;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+div.navbar > span#navbarHead {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 45px;
+}
+div.navbar img {
+    height: 28px;
+    left: 10px;
+    position: absolute;
+}
+section {
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top: 48px;
+    text-align: center;
+}
+section h1 {
+    font-size: 48px;
+    font-family: BebasNeue;
+}
+section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    color: black;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    background-color: rgb(82, 79, 79);
+    align-items: center;
+    z-index: 10000;
+    text-align: center;
+    box-shadow: var(--devsite-header-lower-box-shadow,0 1px 2px 0 rgba(60,64,67,0.3),0 2px 6px 2px #3c404326);
+}
+footer p, footer a {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
